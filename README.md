@@ -89,6 +89,5 @@ Js-Full-Tutorial/
 ├── async/
 ├── projects/
 └── README.md
-## 📚 Resources
-break;
+```
 
