@@ -27,10 +27,11 @@ const addTwo = (num1 ,num2) => (num1 + num2)
 console.log(addTwo(3,2));
 
 /*         Note:         */
-// {} ismein warp kiya to reaturn keyword likna padega 
-// () ismein warp kiya to reaturn keyword likna nehi padega
+// {} ismein warp kiya to return keyword likna padega 
+// () ismein warp kiya to return keyword likna nehi padega
 
 
 /* Object ko return karne keliya....  */
 const addTwo2 = (num1 ,num2) => ({username:"Debananda"})
+
 console.log(addTwo2(3,2));
