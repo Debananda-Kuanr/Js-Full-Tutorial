@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Learning</title>
+    <style>
+        .bg_black{
+            background-color: #212121;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="bg_black">
+   <div  id="firstHeading">
+    <h1 class="Heading" id="title" >DOM Learning on Online <span style="display: none;"> Now Started</span></h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+   </div> 
+
+
+
+
+   <ul>
+    <li>one</li>
+    <li>Two</li>
+    <li>Three</li>
+   </ul>
+
+<!-- document.querySelector('li')
+<li>​…​</li>​
+
+const tempLiList = document.querySelectorAll('li')
+undefined
+
+tempLiList
+NodeList(3) [li, li, li]
+
+tempLiList[1].style.color='green'
+'green' -->
+
+
+</body>
+</html>
+
+<!-- to target the element -->
+<!-- document.getElementById("firstHeading"); -->
+
+<!-- to get links in a website we have to write on console 
+
+console.log(document.links); -->
+
+
+<!-- if we want to manipulate the page throught javascript 
+
+step:1 
+document.getElementById("firstHeading")
+
+step:2
+document.getElementById("firstHeading").innerHTML = "<h1>DOM Learning by Debananda </h1>" -->
+
+
+<!-- 
+  📘 JavaScript DOM Manipulation Notes:
+
+  1️⃣ Selecting Elements:
+      - document.getElementById('title')
+        → Selects the <h1> element with id="title".
+
+  2️⃣ Reading Attributes:
+      - element.getAttribute('id')
+      - element.getAttribute('class')
+        → Reads the attribute values of the selected element.
+
+  3️⃣ Modifying Attributes:
+      - element.setAttribute('class', 'test_heading')
+        → Changes or adds a class name to the element.
+
+  4️⃣ Accessing Text Content:
+      - element.textContent → Gets or sets plain text inside the element.
+      - element.innerText   → Gets or sets visible text inside the element.
+      - element.innerHTML   → Gets or sets HTML content inside the element.
+
+  5️⃣ Changing Styles Dynamically:
+      - element.style.backgroundColor = 'green'
+      - element.style.padding = '15px'
+      - element.style.borderRadius = '15px'
+        → These lines modify the CSS styles directly via JavaScript.
+
+  6️⃣ Logging & Output:
+      - console.log(element)
+        → Prints the entire element in the console for inspection.
+
+  🧠 Summary:
+      This code demonstrates how to:
+      ✅ Select HTML elements using JavaScript
+      ✅ Read & update element attributes
+      ✅ Modify text content dynamically
+      ✅ Change element styles in real time
+
+
+
+      document.querySelector('h1')
+-->
+
+
+
+
+<!-- To convert a NodeList to an array
+
+Array.from(node list name) -->
