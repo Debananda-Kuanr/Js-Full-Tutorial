@@ -1,5 +1,4 @@
 //primitive data types
-
 /*
 7 types :String ,Number, BigInt, Boolean, undefined, null, Symbol
 */
@@ -94,3 +93,4 @@ console.log(UserOne);//debanandakuanr89@gmal.com
   upi: 'debanandakuanr453@ybl.com'
 }
 */
+
