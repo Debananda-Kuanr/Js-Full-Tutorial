@@ -27,8 +27,7 @@ console.log(heros);
 //object
 let myObj = {
     name:"Debananda",
-    age:18
-    
+    age:18   
 }
 
 //function
@@ -78,4 +77,20 @@ let Usertwo = UserOne;
 Usertwo.email="debanandakuanr89@gmail.com"
 
 console.log(Usertwo);//debanandakuanr89@gmail.com
-console.log(UserOne);//debanandakuanr453@gmal.com
+console.log(UserOne);//debanandakuanr89@gmal.com
+
+  
+/*
+********Output of Usertwo************
+{
+  email: 'debanandakuanr89@gmail.com',
+  upi: 'debanandakuanr453@ybl.com'
+}
+
+
+********Output of UserOne************
+{
+  email: 'debanandakuanr89@gmail.com',
+  upi: 'debanandakuanr453@ybl.com'
+}
+*/
